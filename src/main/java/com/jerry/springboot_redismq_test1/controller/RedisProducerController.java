@@ -16,6 +16,7 @@ public class RedisProducerController {
     private final static String SUCCESS="success";
     private final static String MESSAGE="testmq";
     private final static List<String> list;
+
     static {
         list= Arrays.asList(new String[]{"jerry","action","sheva"});
     }
